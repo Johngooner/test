@@ -16,8 +16,36 @@
 
     <main>
         <p>
-            Diese Website wurde mit <strong>HTML5</strong> erstellt.
-            Sie ist einfach aufgebaut und ideal zum Lernen.
+<!-- Bilderbereich -->
+<div class="bilder-galerie">
+    <!-- Fuß-Bild -->
+    <img src="fuesse.jpg" alt="Füße" width="300">
+
+    <!-- Fortnite-Bild -->
+    <img src="fortnite.png" alt="Fortnite" width="300">
+
+    <!-- Gothgirl-Bild -->
+    <img src="gothgirl.jpg" alt="Gothgirl" width="300">
+</div>
+
+<!-- Optional: Ein bisschen Styling -->
+<style>
+.bilder-galerie {
+    display: flex;
+    gap: 20px;           /* Abstand zwischen den Bildern */
+    justify-content: center;
+    margin-top: 20px;
+}
+.bilder-galerie img {
+    border-radius: 10px; /* Runde Ecken */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Schatten */
+    transition: transform 0.3s;
+}
+.bilder-galerie img:hover {
+    transform: scale(1.05); /* Vergrößerung beim Hovern */
+}
+</style>
+
         </p>
     </main>
 
@@ -27,4 +55,5 @@
 
 </body>
 </html>
+
 
